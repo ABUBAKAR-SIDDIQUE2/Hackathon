@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.resume {
+  width: 800px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-bottom: 15px;
+}
+
+.header-content .name {
+  font-size: 2.4em;
+  margin-top: 10px;
+}
+
+.header-content .title {
+  font-size: 1.2em;
+  opacity: 0.85;
+  margin-top: 5px;
+}
+
+.header-content .contact-info {
+  font-size: 0.9em;
+  opacity: 0.85;
+  margin-top: 8px;
+}
+
+.section {
+  padding: 30px 40px;
+}
+
+.about, .education, .experience {
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  padding: 20px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.skills {
+  background-color: #e3f2fd;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.section h2 {
+  font-size: 1.6em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.section ul {
+  list-style-type: none;
+  color: #555;
+  margin-left: 20px;
+}
+
+.section li {
+  margin-bottom: 8px;
+}
+
+.toggle-button {
+  display: inline-block;
+  margin: 20px 40px;
+  padding: 10px 15px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4e54c8;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #8f94fb;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#skills{
+  display: none;
+}
